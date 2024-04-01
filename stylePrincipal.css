@@ -1,0 +1,47 @@
+body {
+    text-align: center; 
+    font-size: 24px; 
+    background-image: url('Servidores/lintux.png');
+    background-size: cover; 
+    background-position: center;
+
+}
+h1 {
+    font-size: 76px; 
+    color: rgb(28, 188, 251);
+    text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF, 0 0 150px #00FFFF; /* Borde de estilo neon */
+    margin-top: 50px; /* Espacio superior */
+    margin-bottom: 30px; /* Espacio inferior */
+    font-family: "Arial", sans-serif; /* Establece una fuente alternativa */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+
+
+h2, h3 {
+    font-size: 48px; /* Tamaño de fuente para h2 */
+    font-size: 33px; /* Tamaño de fuente para h3 */
+    text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF, 0 0 150px #00FFFF; /* Borde de estilo neon */
+    margin-top: 40px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-family: "Arial", sans-serif; /* Establece una fuente alternativa */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+button {
+    background-color: #2fdcef; /* Color de fondo blanco */
+    color: #000000; /* Color de texto negro */
+    padding: 15px 25px; /* Espacio interno del botón */
+    font-size: 20px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    cursor: pointer; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.7); /* Efecto de resplandor (neón) */
+}
+
+
+
+button:hover {
+    background-color: plum; 
+}

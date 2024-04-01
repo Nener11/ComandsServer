@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 76px; 
+  color: rgb(28, 188, 251);
+  text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF, 0 0 150px #00FFFF; /* Borde de estilo neon */
+  margin-top: 50px; /* Espacio superior */
+  margin-bottom: 30px; /* Espacio inferior */
+  font-family: "Arial", sans-serif; /* Establece una fuente alternativa */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  text-align: center; /* Centra el texto */
+}
+
+.container {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+  justify-content: space-around; /* Distribuye uniformemente los elementos */
+}
+
+.container .card {
+  width: calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta */
+  margin: 10px; /* Espacio entre tarjetas */
+  cursor: pointer;
+  background: #3a6ac9; /* Color de fondo de las tarjetas */
+  border-radius: 10px; /* Agrega un borde redondeado */
+}
+
+
+.container .card {
+  width: calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta */
+  margin: 10px; /* Espacio entre tarjetas */
+  cursor: pointer;
+  background: #3a6ac9; /* Color de fondo de las tarjetas */
+}
+
+h3{color:aliceblue
+
+}
+p{color:white}
+button {
+    background-color: #2fdcef; /* Color de fondo blanco */
+    color: #000000; /* Color de texto negro */
+    padding: 15px 25px; /* Espacio interno del botón */
+    font-size: 20px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    cursor: pointer; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.7); /* Efecto de resplandor (neón) */
+}
